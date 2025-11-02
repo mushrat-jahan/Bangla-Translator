@@ -34,7 +34,7 @@ model_name = "openai/gpt-oss-20b"
 # -----------------------------
 def translate_bangla_to_english(text: str) -> str:
     try:
-        prompt = f"System: {system_prompt}\nUser: {text}\nAssistant:"
+        # prompt = f"System: {system_prompt}\nUser: {text}\nAssistant:"
 
         # Call Groq API
         completion = client.chat.completions.create(
@@ -64,9 +64,9 @@ def translate_bangla_to_english(text: str) -> str:
 
 
 
-# if __name__ == "__main__":
-#     test_text = "জমিয়তে উলামায়ে ইসলাম বাংলাদেশ হলো বাংলাদেশের একটি ইসলামপন্থী রাজনৈতিক দল"
-#     print(translate_bangla_to_english(test_text))
+if __name__ == "__main__":
+    test_text = "জমিয়তে উলামায়ে ইসলাম বাংলাদেশ হলো বাংলাদেশের একটি ইসলামপন্থী রাজনৈতিক দল"
+    print(translate_bangla_to_english(test_text))
 
 
 
