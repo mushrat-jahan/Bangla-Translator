@@ -10,6 +10,7 @@ A web-based translation application that converts Bangla text to English using A
 ## 🛠️ Technologies Used
 
 - **Python** - Backend logic and API integration
+- **openAI model** - Translate bangla text to english
 - **CSS**- Styling and responsive design
 - **JavaScript** - Frontend interactivity
 - **HTML** - Page structure
