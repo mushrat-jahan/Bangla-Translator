@@ -2,12 +2,12 @@
 
 A web-based translation application that converts Bangla text to English using AI model.
 
-## 🌟 Features
+##  Features
 
 - Bangla to English translation
 - Accurate translations
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python** - Backend logic and API integration
 - **openAI model** - Translate bangla text to english
@@ -15,7 +15,7 @@ A web-based translation application that converts Bangla text to English using A
 - **JavaScript** - Frontend interactivity
 - **HTML** - Page structure
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running this project, make sure you have:
 
@@ -23,7 +23,7 @@ Before running this project, make sure you have:
 - pip (Python package manager)
 - Groq API key (or relevant translation API)
 
-## 🚀 Installation
+##  Installation
 1. Clone the repository:
 2. Create a virtual environment: ``python -m venv .venv``
 3. Activate the virtual environment: ``.venv\Scripts\activate`` (for Windows)
