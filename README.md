@@ -2,6 +2,8 @@
 
 A web-based translation application that converts Bangla text to English using AI model.
 
+![Bangla Translator](img/)
+
 ##  Features
 
 - Bangla to English translation
