@@ -65,10 +65,8 @@ def translate_bangla_to_english(text: str) -> str:
 
 
 if __name__ == "__main__":
-    test_text = "জমিয়তে উলামায়ে ইসলাম বাংলাদেশ হলো বাংলাদেশের একটি ইসলামপন্থী রাজনৈতিক দল"
+    test_text = "আমার একটি বিড়াল আছে।"
     print(translate_bangla_to_english(test_text))
-
-
 
 
 
